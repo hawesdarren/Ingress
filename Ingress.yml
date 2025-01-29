@@ -11,7 +11,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /api/authentication/.*
+      - path: /api/authentication/
         pathType: Prefix
         backend:
           service:
