@@ -18,7 +18,7 @@ spec:
             name: authentication-api-service
             port:
               number: 8080
-      - path:
+      - path: /
         pathType: Prefix
         backend:
           service:
